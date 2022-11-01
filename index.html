@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=EB Garamond"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <body>
+      <div class="container">
+          <header>
+              <div class="logo"><img class="logoImg" src="logo.png" alt="Logo"></div>
+              <div class="title"><h1 class="titleText">Pronađi index u nizu</h1></div>
+          </header>
+
+          <div class="box">
+
+              <main>
+                  <div><h3>Uputa</h3></div>
+                  <div class="instructions">
+                      <p class="instructionsText">
+                          Program ispituje može li se niz podijeliti na dva niza s jednakom sumom
+                          i ispisuje indeks elementa koji dijeli ta dva niza. Unesi niz cijelih pozitivnih brojeva odijeljenih razmakom.
+                      </p>
+                  </div>
+                  <div>
+                      <input class="inputField" type="text" id="userInput">
+                  </div>  
+                  <div class="alert" id="alert">
+  
+                  </div>
+
+                  <div>
+                      <div class="resultFrame"><strong>Indeks</strong> elementa u nizu koji dijeli upisani niz na dva podniza s jednakom sumom je: </div>
+                      <div class="result" id="result">-</div>
+                  </div>
+              </main>
+  
+              <aside>
+                  <div class="info">
+                    <i>Ime i prezime:</i><br>
+                      Ivan Vladić<br>
+                      Mirka Seljana 53<br>
+                      47000 Karlovac<br>
+                  </div>
+                  <div class="info">
+                    <i>Za tvrtku:</i><br>
+                      UVID d.o.o.<br>
+                      Hrelićka 96<br>
+                      10000 Zagreb<br>
+                  </div>
+              </aside>
+          </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
